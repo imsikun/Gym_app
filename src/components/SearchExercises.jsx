@@ -30,7 +30,7 @@ const SearchExercises = ({ setExercises, bodyPart, setbodyPart }) => {
           item.name.toLowerCase().includes(search) ||
           item.target.toLowerCase().includes(search) ||
           item.equipment.toLowerCase().includes(search) ||
-          item.bodyPart.toLowercase().includes(search)
+          item.bodyPart.toLowerCase().includes(search)
       );
       setSearch('');
       setExercises(searchedExercises);
