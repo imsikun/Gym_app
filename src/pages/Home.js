@@ -18,7 +18,7 @@ const Navbar = () => {
       <Exercises
         setExercises={setExercises}
         exercises={exercises}
-        setbodyPart={setBodyPart}
+        bodyPart={bodyPart}
       />
     </Box>
   );
